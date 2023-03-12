@@ -20,6 +20,14 @@ html {
     background-color: #000 !important;
 }
 
+.bg-electric {
+    background-color: rgb(63, 119, 248);
+}
+
+.bg-grey {
+    background-color: rgb(229, 229, 232);
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -68,4 +76,13 @@ html {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.carousel-img {
+    max-height: 30vh;
+    min-width: 100%;
+}
+
+.font-size {
+    font-size: 150%;
 }
