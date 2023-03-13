@@ -3,7 +3,7 @@ html {
 }
 
 .bg-image {
-    background: url('./media/images/lighbulb-bg.jpg') no-repeat center center fixed;
+    background: url('../images/lighbulb-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 60vh;
     min-width: 100vw;
