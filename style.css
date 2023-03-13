@@ -78,11 +78,6 @@ html {
     border: 1px solid black !important;
 }
 
-.carousel-img {
-    max-height: 30vh;
-    min-width: 100%;
-}
-
 .font-size {
     font-size: 150%;
 }
