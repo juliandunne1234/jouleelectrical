@@ -5,7 +5,7 @@ html {
 .bg-image {
     background: url('../images/lighbulb-bg.jpg') no-repeat center center fixed;
     background-size: cover;
-    min-height: 60vh;
+    min-height: 100vh;
     min-width: 100vw;
     color: #555;
     font-family: 'Lato';
@@ -26,6 +26,10 @@ html {
 
 .bg-grey {
     background-color: rgb(229, 229, 232);
+}
+
+.bg-orange {
+    background-color: rgb(242, 188, 87);
 }
 
 /* from Bulma */
@@ -80,4 +84,11 @@ html {
 
 .font-size {
     font-size: 150%;
+}
+
+/* screen size only on medium and down */
+@media (min-width: 770px) {
+    .sub-name {
+        font-size: 200%;
+    }
 }
