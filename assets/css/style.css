@@ -2,13 +2,14 @@ html {
     height: 100%;
 }
 
-.bg-image {
-    background: url('../images/lighbulb-bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    min-height: 100vh;
-    min-width: 100vw;
-    color: #555;
-    font-family: 'Lato';
+.carousel-img {
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+.carousel-caption {
+    background-color: rgba(244, 181, 63, 0.77);
 }
 
 .main-text {
@@ -20,16 +21,8 @@ html {
     background-color: #000 !important;
 }
 
-.bg-electric {
-    background-color: rgb(63, 119, 248);
-}
-
 .bg-grey {
     background-color: rgb(229, 229, 232);
-}
-
-.bg-orange {
-    background-color: rgb(242, 188, 87);
 }
 
 /* from Bulma */
