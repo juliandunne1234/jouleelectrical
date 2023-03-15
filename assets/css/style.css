@@ -75,7 +75,7 @@ html {
     border: 1px solid black !important;
 }
 
-.font-size {
+.about-text, .font-size {
     font-size: 150%;
 }
 
@@ -99,9 +99,13 @@ html {
 }
 
 /* small screen sizes and down */
-@media (max-width: 768px) {
-    .logo-text-sm {
+@media (max-width: 578px) {
+    .logo-text-sm, .services-text-sm {
         font-size: 175%;
+    }
+
+    .about-text {
+        font-size: 135%;
     }
 }
 
@@ -120,6 +124,10 @@ html {
 /* extra small screen sizes only */
 @media (max-width: 350px) {
     .carousel-text {
+        font-size: 125%;
+    }
+
+    .about-text {
         font-size: 125%;
     }
 }
