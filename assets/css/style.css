@@ -79,9 +79,47 @@ html {
     font-size: 150%;
 }
 
-/* screen size only on medium and down */
-@media (min-width: 770px) {
-    .sub-name {
-        font-size: 200%;
+.navbar-logo-img {
+    height: 50px;
+    width: 50px;
+}
+
+/* extra large screen sizes only */
+@media (min-width: 1200px) {
+    .nav-item {
+        font-size: 125%;
+    }
+}
+
+/* medium screen sizes and down */
+@media (max-width: 768px) {
+    .carousel-text {
+        font-size: 150%;
+    }
+}
+
+/* small screen sizes and down */
+@media (max-width: 768px) {
+    .logo-text-sm {
+        font-size: 175%;
+    }
+}
+
+/* very small screen sizes */
+@media (max-width: 450px) {
+    .nav-logo-font {
+        font-size: 100%;
+    }
+
+    .navbar-logo-img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* extra small screen sizes only */
+@media (max-width: 350px) {
+    .carousel-text {
+        font-size: 125%;
     }
 }
