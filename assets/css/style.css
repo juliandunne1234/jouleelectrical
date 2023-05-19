@@ -79,7 +79,15 @@ html {
     border: 1px solid black !important;
 }
 
-.about-text, .font-size {
+.about-text {
+    font-size: 175%;
+}
+
+.about-contact {
+    font-size: 125%;
+}
+
+.font-size {
     font-size: 150%;
 }
 
@@ -114,6 +122,10 @@ html {
 
     .about-text {
         font-size: 135%;
+    }
+
+    .about-contact {
+        font-size: 100%;
     }
 }
 
