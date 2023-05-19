@@ -2,6 +2,10 @@ html {
     height: 100%;
 }
 
+.nav-logo-font {
+    font-size: 200%;
+}
+
 .carousel-img {
     height: 60vh;
     object-fit: cover;
@@ -93,6 +97,10 @@ html {
 
 /* medium screen sizes and down */
 @media (max-width: 768px) {
+    .nav-logo-font {
+        font-size: 150%;
+    }
+    
     .carousel-text {
         font-size: 150%;
     }
@@ -112,7 +120,7 @@ html {
 /* very small screen sizes */
 @media (max-width: 450px) {
     .nav-logo-font {
-        font-size: 100%;
+        font-size: 125%;
     }
 
     .navbar-logo-img {
