@@ -2,9 +2,7 @@ html {
     height: 100%;
 }
 
-.nav-logo-font {
-    font-size: 200%;
-}
+
 
 .carousel-img {
     height: 60vh;
@@ -91,9 +89,9 @@ html {
     font-size: 150%;
 }
 
-.navbar-logo-img {
-    height: 50px;
-    width: 50px;
+.navbar-logo-img, .main-logo-img {
+    height: 75px;
+    width: 75px;
 }
 
 /* extra large screen sizes only */
@@ -105,23 +103,19 @@ html {
 
 /* medium screen sizes and down */
 @media (max-width: 768px) {
-    .nav-logo-font {
+    .main-logo-font, .carousel-text {
         font-size: 150%;
     }
-    
-    .carousel-text {
-        font-size: 150%;
+
+    .about-text {
+        font-size: 135%;
     }
 }
 
 /* small screen sizes and down */
 @media (max-width: 578px) {
-    .logo-text-sm, .services-text-sm {
+    .services-text-sm {
         font-size: 175%;
-    }
-
-    .about-text {
-        font-size: 135%;
     }
 
     .about-contact {
@@ -132,22 +126,22 @@ html {
 /* very small screen sizes */
 @media (max-width: 450px) {
     .nav-logo-font {
-        font-size: 125%;
+        font-size: 100%;
     }
 
     .navbar-logo-img {
-        width: 35px;
-        height: 35px;
+        width: 60px;
+        height: 60px;
     }
 }
 
 /* extra small screen sizes only */
 @media (max-width: 350px) {
-    .carousel-text {
+    .main-logo-font, .carousel-text {
         font-size: 125%;
     }
 
     .about-text {
-        font-size: 125%;
+        font-size: 115%;
     }
 }
