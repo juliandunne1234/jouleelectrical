@@ -2,15 +2,13 @@ html {
     height: 100%;
 }
 
-
-
 .carousel-img {
-    height: 60vh;
+    height: 30vh;
     object-fit: cover;
     object-position: center;
   }
 
-.carousel-caption {
+.contact-background, .carousel-caption {
     background-color: rgba(244, 181, 63, 0.77);
 }
 
@@ -34,6 +32,16 @@ html {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
+}
+
+.nav-logo-font {
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.nav-item-font {
+    font-size: 125%;
+    font-weight: 600;
 }
 
 .logo-font {
@@ -89,15 +97,15 @@ html {
     font-size: 150%;
 }
 
-.navbar-logo-img, .main-logo-img {
-    height: 75px;
-    width: 75px;
+.main-logo-img {
+    height: 100px;
+    width: 100px;
 }
 
 /* extra large screen sizes only */
-@media (min-width: 1200px) {
-    .nav-item {
-        font-size: 125%;
+@media (max-width: 991px) {
+    .nav-logo-font {
+        font-size: 150%;
     }
 }
 
@@ -114,6 +122,10 @@ html {
 
 /* small screen sizes and down */
 @media (max-width: 578px) {
+    .nav-logo-font {
+        font-size: 125%;
+    }
+
     .services-text-sm {
         font-size: 175%;
     }
@@ -123,25 +135,37 @@ html {
     }
 }
 
-/* very small screen sizes */
-@media (max-width: 450px) {
+/* very small screen sizes only */
+@media (max-width: 481px) {
     .nav-logo-font {
-        font-size: 100%;
+        font-size: 115%;
     }
-
-    .navbar-logo-img {
-        width: 60px;
-        height: 60px;
+    
+    .nav-toggler-container {
+        display: none;
     }
 }
 
 /* extra small screen sizes only */
 @media (max-width: 350px) {
+    .nav-logo-img {
+        display: none;
+    }
+
     .main-logo-font, .carousel-text {
         font-size: 125%;
     }
 
     .about-text {
         font-size: 115%;
+    }
+}
+
+/* extra small screen sizes only */
+@media (max-width: 300px) {
+    
+
+    .nav-logo-font {
+        font-size: 100%;
     }
 }
