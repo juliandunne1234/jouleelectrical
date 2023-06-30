@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    width: 100%;
 }
 
 .carousel-img {
@@ -23,6 +24,10 @@ html {
 
 .bg-grey {
     background-color: rgb(229, 229, 232);
+}
+
+.icon-style {
+    color: rgba(244, 181, 63, 0.77);
 }
 
 /* from Bulma */
@@ -85,11 +90,7 @@ html {
     border: 1px solid black !important;
 }
 
-.about-text {
-    font-size: 175%;
-}
-
-.about-contact {
+.about-text, .about-contact {
     font-size: 125%;
 }
 
@@ -97,26 +98,14 @@ html {
     font-size: 150%;
 }
 
-.main-logo-img {
-    height: 100px;
-    width: 100px;
-}
-
 /* extra large screen sizes only */
 @media (max-width: 991px) {
     .nav-logo-font {
         font-size: 150%;
     }
-}
 
-/* medium screen sizes and down */
-@media (max-width: 768px) {
-    .main-logo-font, .carousel-text {
-        font-size: 150%;
-    }
-
-    .about-text {
-        font-size: 135%;
+    .main-logo-font {
+        font-size: 175%;
     }
 }
 
@@ -126,18 +115,22 @@ html {
         font-size: 125%;
     }
 
-    .services-text-sm {
-        font-size: 175%;
+    .main-logo-font {
+        font-size: 125%;
     }
 
-    .about-contact {
-        font-size: 100%;
+    .about-text, .about-contact {
+        font-size: 115%;
+    }
+
+    .services-text-sm {
+        font-size: 175%;
     }
 }
 
 /* very small screen sizes only */
 @media (max-width: 481px) {
-    .nav-logo-font {
+    .nav-logo-font, .main-logo-font {
         font-size: 115%;
     }
     
@@ -148,24 +141,14 @@ html {
 
 /* extra small screen sizes only */
 @media (max-width: 350px) {
-    .nav-logo-img {
+    .nav-logo-img, .main-logo-img {
         display: none;
-    }
-
-    .main-logo-font, .carousel-text {
-        font-size: 125%;
-    }
-
-    .about-text {
-        font-size: 115%;
     }
 }
 
 /* extra small screen sizes only */
-@media (max-width: 300px) {
-    
-
-    .nav-logo-font {
-        font-size: 100%;
+@media (min-width: 350px) {
+    .main-logo-img-container-sm {
+        display: none;
     }
 }
