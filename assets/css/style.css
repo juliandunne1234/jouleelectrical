@@ -9,7 +9,7 @@ html {
     object-position: center;
   }
 
-.contact-background, .carousel-caption {
+.orange-background {
     background-color: rgba(244, 181, 63, 0.77);
 }
 
@@ -99,9 +99,30 @@ html {
     font-size: 125%;
 }
 
-.services-text-font, .alarms-text-font {
+.services-text-font, .alarms-text-font, .contact-text-font {
     font-size: 125%;
 }
+
+.services-img-sm, .alarms-img-sm {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+.alarms-img-top-sm {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    }
+
+.services-img-lg, .alarms-img-lg {
+    height: 310px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
 
 /* extra large screen sizes only */
 @media (max-width: 991px) {
@@ -113,7 +134,7 @@ html {
         font-size: 175%;
     }
 
-    .services-text-heading, .alarms-text-heading {
+    .services-text-heading, .alarms-text-heading, .contact-text-heading {
         font-size: 175%;
     }
 
@@ -136,11 +157,11 @@ html {
         font-size: 115%;
     }
 
-    .services-text-heading, .alarms-text-heading {
+    .services-text-heading, .alarms-text-heading, .contact-text-heading {
         font-size: 140%;
     }
 
-    .services-text-font, .alarms-text-font {
+    .services-text-font, .alarms-text-font, .contact-text-font {
         font-size: 115%;
     }
 }
@@ -168,14 +189,14 @@ html {
 }
 
 /* medium screen sizes only */
-@media (max-width: 768px) {
+@media (max-width: 350px) {
     .contact-logo-img {
         display: none;
     }
 }
 
 /* medium screen sizes only */
-@media (min-width: 768px) {
+@media (min-width: 350px) {
     .contact-logo-img-container-sm {
         display: none;
     }
