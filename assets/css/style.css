@@ -53,6 +53,11 @@ html {
     text-transform: uppercase;
 }
 
+.sub-logo-font {
+    font-size: 150%;
+    font-weight: 600;
+}
+
 .main-logo-link {
     width: fit-content;
 }
@@ -104,12 +109,16 @@ html {
         font-size: 150%;
     }
 
-    .main-logo-font {
+    .main-logo-font, .contact-font {
         font-size: 175%;
     }
 
     .services-text-heading, .alarms-text-heading {
         font-size: 175%;
+    }
+
+    .sub-logo-font {
+        font-size: 125%;
     }
 }
 
@@ -119,7 +128,7 @@ html {
         font-size: 125%;
     }
 
-    .main-logo-font {
+    .main-logo-font, .contact-font {
         font-size: 125%;
     }
 
@@ -138,7 +147,7 @@ html {
 
 /* very small screen sizes only */
 @media (max-width: 481px) {
-    .nav-logo-font, .main-logo-font {
+    .nav-logo-font, .main-logo-font, .contact-font {
         font-size: 115%;
     }
     
@@ -154,6 +163,20 @@ html {
 /* extra small screen sizes only */
 @media (max-width: 350px) {
     .nav-logo-img, .main-logo-img {
+        display: none;
+    }
+}
+
+/* medium screen sizes only */
+@media (max-width: 768px) {
+    .contact-logo-img {
+        display: none;
+    }
+}
+
+/* medium screen sizes only */
+@media (min-width: 768px) {
+    .contact-logo-img-container-sm {
         display: none;
     }
 }
