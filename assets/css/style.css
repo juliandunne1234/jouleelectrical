@@ -94,8 +94,8 @@ html {
     font-size: 125%;
 }
 
-.font-size {
-    font-size: 150%;
+.services-text-font, .alarms-text-font {
+    font-size: 125%;
 }
 
 /* extra large screen sizes only */
@@ -105,6 +105,10 @@ html {
     }
 
     .main-logo-font {
+        font-size: 175%;
+    }
+
+    .services-text-heading, .alarms-text-heading {
         font-size: 175%;
     }
 }
@@ -123,8 +127,12 @@ html {
         font-size: 115%;
     }
 
-    .services-text-sm {
-        font-size: 175%;
+    .services-text-heading, .alarms-text-heading {
+        font-size: 140%;
+    }
+
+    .services-text-font, .alarms-text-font {
+        font-size: 115%;
     }
 }
 
@@ -136,6 +144,10 @@ html {
     
     .nav-toggler-container {
         display: none;
+    }
+
+    .about-text, .about-contact {
+        font-size: 100%;
     }
 }
 
