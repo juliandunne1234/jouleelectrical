@@ -18,25 +18,8 @@ html {
     align-items: center;
 }
 
-.bg-black {
-    background-color: #000 !important;
-}
-
-.bg-grey {
-    background-color: rgb(229, 229, 232);
-}
-
 .icon-style {
     color: rgba(244, 181, 63, 0.77);
-}
-
-/* from Bulma */
-.icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
 }
 
 .nav-logo-font {
@@ -62,41 +45,19 @@ html {
     width: fit-content;
 }
 
-.call-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-}
-
-.btn-black {
-    background: black;
-    color: white;
-}
-
-.call-now-button:hover,
-.call-now-button:active,
-.call-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
-
 .text-black {
     color: #000 !important;
 }
 
-.text-white {
-    color: #fff !important;
-}
-
-.border-black {
-    border: 1px solid black !important;
-}
-
 .about-text, .about-contact {
     font-size: 125%;
+}
+
+.certificates-img {
+    height: 125px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 
 .services-text-font, .alarms-text-font, .contact-text-font {
@@ -134,6 +95,10 @@ html {
         font-size: 175%;
     }
 
+    .certificates-img {
+        height: 100px;
+    }
+
     .services-text-heading, .alarms-text-heading, .contact-text-heading {
         font-size: 175%;
     }
@@ -155,6 +120,10 @@ html {
 
     .about-text, .about-contact {
         font-size: 115%;
+    }
+
+    .certificates-img {
+        height: 80px;
     }
 
     .services-text-heading, .alarms-text-heading, .contact-text-heading {
@@ -186,10 +155,7 @@ html {
     .nav-logo-img, .main-logo-img {
         display: none;
     }
-}
 
-/* medium screen sizes only */
-@media (max-width: 350px) {
     .contact-logo-img {
         display: none;
     }
@@ -200,10 +166,7 @@ html {
     .contact-logo-img-container-sm {
         display: none;
     }
-}
 
-/* extra small screen sizes only */
-@media (min-width: 350px) {
     .main-logo-img-container-sm {
         display: none;
     }
