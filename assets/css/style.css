@@ -5,21 +5,13 @@ html {
 
 .carousel-img {
     height: 30vh;
+    width: 100%;
     object-fit: cover;
     object-position: center;
   }
 
 .orange-background {
     background-color: rgba(244, 181, 63, 0.77);
-}
-
-.main-text {
-    height: 60vh;
-    align-items: center;
-}
-
-.icon-style {
-    color: rgba(244, 181, 63, 0.77);
 }
 
 .nav-logo-font {
